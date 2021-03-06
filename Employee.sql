@@ -30,7 +30,7 @@ select   first_name,
 from     employees
 WHERE hire_date BETWEEN '1/1/1986' AND '1/1/1987';
 
-============================================================================================================================================
+===================================================================================================================================================================
 --3. List the manager of each department with the following information:department number, department name, the manager's employee number, last name, first name.
 
 select * from departments;
@@ -49,7 +49,19 @@ left join dept_manger
 left join employees 
 on         dept_manger.emp_no = employees.emp_no;
 
-=================================================================================================================================================
+==================================================================================================================================================================
+
+-- 4 .List the department of each employee with the following information: employee number, last name, first name, and department name.
+select     employees.emp_no, 
+		   employees.last_name,
+		   employees.first_name,
+		   departments.dept_name
+from       employees
+left join  dept_manger
+on         dept_manger.emp_no = employees.emp_no
+left join departments
+ on       departments.dept_no =dept_manger.dept_no;
+
 
 
 
