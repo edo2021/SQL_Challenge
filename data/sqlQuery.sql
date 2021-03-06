@@ -1,13 +1,5 @@
--- checking all table data after imported
-select * from departments;
-select * from dept_emp;
-select * from titles;
 select * from employees;
-select * from dept_manger;
 select * from salaries;
-
-
-
 --Data Analysis
 --Once you have a complete database, do the following:
 
@@ -21,9 +13,5 @@ select  employees.emp_no,
 		salaries.salary
 from employees
  join salaries on salaries.salary =employees.emp_no ;
-
-
-
-
 
 
