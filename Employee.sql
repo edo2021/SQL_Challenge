@@ -23,6 +23,14 @@ from employees
  join salaries on salaries.salary =employees.emp_no ;
 
 
+-- 2. List first name, last name, and hire date for employees who were hired in 1986.
+select   first_name, 
+		 last_name,
+		 hire_date
+from     employees
+WHERE hire_date BETWEEN '1/1/1986' AND '1/1/1987';
+
+
 
 
 
