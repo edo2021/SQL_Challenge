@@ -31,8 +31,7 @@ from     employees
 WHERE hire_date BETWEEN '1/1/1986' AND '1/1/1987';
 
 ============================================================================================================================================
---3. List the manager of each department with the following information: 
--- department number, department name, the manager's employee number, last name, first name.
+--3. List the manager of each department with the following information:department number, department name, the manager's employee number, last name, first name.
 
 select * from departments;
 select * from employees;
