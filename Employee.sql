@@ -90,6 +90,22 @@ left join      departments
  on       departments.dept_no =dept_manger.dept_no
    where dept_name ='Sales';
 
+============================================================================================================================================================
+
+-- 7.including their employee number, last name, first name, and department name.
+
+select    employees.emp_no,
+		  employees.last_name,
+		  employees.first_name,
+		  departments.dept_name
+from       employees
+left join  dept_manger
+on         dept_manger.emp_no = employees.emp_no
+left join   departments
+on           departments.dept_no =dept_manger.dept_no
+where     dept_name = 'Development' or dept_name= 'Sales';
+
+
 
 
 
