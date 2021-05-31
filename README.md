@@ -1,4 +1,4 @@
-# SQL_Challenge
+# Data Engineering and Analysis 
 This sql code is wrrtten by Edris Gemtessa at University of Minnesota.
 
 Background
