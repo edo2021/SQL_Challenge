@@ -27,7 +27,6 @@ Clone the new repository to your computer.
 Add your files to this folder.
 
 
-Push the above changes to GitHub.
 
 
 
@@ -35,6 +34,9 @@ Instructions
 
 Data Modeling
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like http://www.quickdatabasediagrams.com.
+
+![image](https://user-images.githubusercontent.com/76269709/120911912-9f772100-c650-11eb-9b7c-b712a9e9f190.png)
+
 
 Data Engineering
 
